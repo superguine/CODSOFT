@@ -87,11 +87,7 @@ public class NumGame
                 {
                     gm.SoreBoard(round, finalatmp,0,finalscr);
                 }
-
-
-                
                 System.out.println("\nExiting the game...\n");
-
                 break;
             }
             if (a.equals("yes")) 
