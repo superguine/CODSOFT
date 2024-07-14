@@ -1,7 +1,7 @@
 # Here's the List of tasks with their description.
 
 *********************************************************************************************************************************************************************************
-## **TASK 1 ->  NUMBER GAME**
+## **[TASK 1 ->  NUMBER GAME](https://github.com/superguine/CODSOFT/blob/main/NumGame.java)**
 
 1. Generate a random number within a specified range, such as 1 to 100.
 2. Prompt the user to enter their guess for the generated number.
@@ -16,7 +16,7 @@
 
 
 *********************************************************************************************************************************************************************************
-## **TASK 2 -> STUDENT GRADE CALCULATOR**
+## **[TASK 2 -> STUDENT GRADE CALCULATOR](https://github.com/superguine/CODSOFT/blob/main/GradeCalc.java)**
 
 1. **Input:** Take marks obtained (out of 100) in each subject.
 2. **Calculate Total Marks:** Sum up the marks obtained in all subjects.
