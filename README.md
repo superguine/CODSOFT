@@ -1,7 +1,7 @@
-## Below, you’ll find a comprehensive list of tasks along with their descriptions, which have been assigned to me by [CODSOFT](https://www.codsoft.in/) for my **_JAVA Programming_** internship.
+### Below, you’ll find a comprehensive list of tasks along with their descriptions, which have been assigned to me by [CODSOFT](https://www.codsoft.in/) for my **_JAVA Programming_** internship.
 
 *********************************************************************************************************************************************************************************
-### **[TASK 1 ->  NUMBER GAME](https://github.com/superguine/CODSOFT/blob/main/NumGame.java)**
+**[TASK 1 ->  NUMBER GAME](https://github.com/superguine/CODSOFT/blob/main/NumGame.java)**
 
 1. Generate a random number within a specified range, such as 1 to 100.
 2. Prompt the user to enter their guess for the generated number.
@@ -16,7 +16,7 @@
 
 
 *********************************************************************************************************************************************************************************
-### **[TASK 2 -> STUDENT GRADE CALCULATOR](https://github.com/superguine/CODSOFT/blob/main/GradeCalc.java)**
+**[TASK 2 -> STUDENT GRADE CALCULATOR](https://github.com/superguine/CODSOFT/blob/main/GradeCalc.java)**
 
 1. **Input:** Take marks obtained (out of 100) in each subject.
 2. **Calculate Total Marks:** Sum up the marks obtained in all subjects.
