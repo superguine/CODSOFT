@@ -11,7 +11,7 @@
    >- **too high** ( _You have guessed a higher number_).
    >- **too low** (_You have guessed a Lower number_).
 
-4. Repeat steps 2 and 3 until the user guesses the correct number.
+4. Repeat steps 2 and 3 until the user guesses the correct number.  return
 
 **You can incorporate additional details as follows:**
 
