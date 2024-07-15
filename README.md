@@ -6,7 +6,11 @@
 1. Generate a random number within a specified range, such as 1 to 100.
 2. Prompt the user to enter their guess for the generated number.
 3. Compare the user's guess with the generated number and provide feedback on whether the guess is correct, too high, or too low.
-   >here I provided feedback on whether the guess is **correct** (_Congrats !! You have guessed the correct number_),**too high** ( _You have guessed a higher number_), or **too low** (_You have guessed a Lower number_).
+   >here I provided corresponding feedbacks on whether the guess is -
+   >- **correct** (_Congrats !! You have guessed the correct number_).
+   >- **too high** ( _You have guessed a higher number_).
+   >- **too low** (_You have guessed a Lower number_).
+
 4. Repeat steps 2 and 3 until the user guesses the correct number.
 
 **You can incorporate additional details as follows:**
