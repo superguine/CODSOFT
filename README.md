@@ -22,9 +22,9 @@
 
 
 ****instruction for the user****
--After compile run,
-   -  user have to guess a number between the given range ( will be displayed in runtime ) until correct or all attempts takaen.
-   - then, if the user wants to play another round ( will be asked ), have to enter `yes` otherwise `no`.  
+   -After **compile** & **run**,
+      -  user have to guess a number between the given range ( will be displayed ) until correct or all attempts takaen.
+      - then, if the user wants to play another round ( will be asked ), have to enter `yes` otherwise `no`.  
 
 
 
@@ -36,4 +36,12 @@
 3. **Calculate Average Percentage:** Divide the total marks by the total number of subjects to get the average percentage.
 4. **Grade Calculation:** Assign grades based on the average percentage achieved.
 5. **Display Results:** Show the total marks, average percentage, and the corresponding grade to the user.
+
+
+
+****Instruction for the user****
+   -After **compile** & **run**,
+      -Users need to enter an integer representing the number of subjects they want to work with.
+      -Next, users should enter each subject one by one.
+      -Finally, the user should enter marks corresponding to each subject.
 
