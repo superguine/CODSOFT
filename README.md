@@ -12,7 +12,7 @@
    >- **too low** (_You have guessed a Lower number_).
 
 4. Repeat steps 2 and 3 until the user guesses the correct number.  return
-
+<br>
 **You can incorporate additional details as follows:**
 
 5. Limit the number of attempts the user has to guess the number.
