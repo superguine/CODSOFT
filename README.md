@@ -22,9 +22,9 @@
 
 </pre>
 - ****instruction for the user****
-      After **compile** & **run**
-         - user have to guess a number between the given range ( will be displayed ) until correct or all attempts takaen.
-         - then, if the user wants to play another round ( will be asked ), have to enter `yes` otherwise `no`.  
+   - After **compile** & **run**
+      - user have to guess a number between the given range ( will be displayed ) until correct or all attempts takaen.
+      - then, if the user wants to play another round ( will be asked ), have to enter `yes` otherwise `no`.  
 <pre>
 
 
@@ -45,8 +45,8 @@
 
 </pre>
 - ****Instruction for the user****
-   After **compile** & **run**,
-         - Users need to enter an integer representing the number of subjects they want to work with.
-         - Next, users should enter each subject one by one.
-         - Finally, the user should enter marks corresponding to each subject.
+   - After **compile** & **run**,
+      - Users need to enter an integer representing the number of subjects they want to work with.
+      - Next, users should enter each subject one by one.
+      - Finally, the user should enter marks corresponding to each subject.
 
