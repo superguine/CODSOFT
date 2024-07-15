@@ -18,12 +18,12 @@
 5. Limit the number of attempts the user has to guess the number.
 6. Add the option for multiple rounds, allowing the user to play again.
 7. Display the user's score, which can be based on the number of attempts taken or rounds won.
-<br/>
+
 ****instruction for the user****
-   - After **compile** & **run**,
+   - After **compile** & **run**
       - user have to guess a number between the given range ( will be displayed ) until correct or all attempts takaen.
       - then, if the user wants to play another round ( will be asked ), have to enter `yes` otherwise `no`.  
-<br/>
+
 *********************************************************************************************************************************************************************************
 **[TASK 2 -> STUDENT GRADE CALCULATOR](https://github.com/superguine/CODSOFT/blob/main/GradeCalc.java)**
 
@@ -32,7 +32,7 @@
 3. **Calculate Average Percentage:** Divide the total marks by the total number of subjects to get the average percentage.
 4. **Grade Calculation:** Assign grades based on the average percentage achieved.
 5. **Display Results:** Show the total marks, average percentage, and the corresponding grade to the user.
-<br/>
+
 ****Instruction for the user****
    - After **compile** & **run**,
       - Users need to enter an integer representing the number of subjects they want to work with.
