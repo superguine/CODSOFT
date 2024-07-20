@@ -23,7 +23,7 @@
 </pre>
 - ****instruction for the user****
    - After **compile** & **run**
-      - user have to guess a number between the given range ( will be displayed ) until correct or all attempts takaen.
+      - user have to guess a number between the given range ( will be displayed ) until correct or all attempts taken.
       - then, if the user wants to play another round ( will be asked ), have to enter `yes` otherwise `no`.  
 <pre>
 
