@@ -49,6 +49,7 @@ public class atm {
     }
 }
 
+
 class inner_ATM {
 
     private double balance;
