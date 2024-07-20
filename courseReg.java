@@ -122,7 +122,6 @@ class innercourse {
                 if (student[j][k]!=null)
                     System.out.print("   "+student[j][k] + "                   ");
             }System.out.println();
-        }
-              
+        }       
     }
 }
