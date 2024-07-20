@@ -4,7 +4,7 @@ public class atm {
         Scanner sc =new Scanner(System.in);
         System.out.println("\n\n\t\t Welcome to the ATM ");
         double amount=0;
-        double initialbal=1000.00;
+        double initialbal=0;
         inner_ATM ia =new inner_ATM();
         ia.deposit(initialbal);        
         int option =5;
@@ -18,20 +18,16 @@ public class atm {
                     System.out.print("Enter the amount: ");
                     amount=sc.nextDouble();
                     if (ia.withdraw(amount))
-                    {
-                        System.out.println("\n\t\t\t Withdraw successful! ");
-                        break;
-                    }
-                    else{
-                        System.out.println("\n\t\t\t Can't proceed!  Insufficient balance");
-                        option=4;
-                        break;
-                    }
+                        System.out.println("\n\t\t\t Withdrawal successful! ");
+                    else
+                        System.out.println("\n\t\t\t Can't proceed!  Insufficient balance.");
+                    break;
                 }
                 case 2:{
                     System.out.print("Enter the amount: ");
                     amount=sc.nextDouble();
                     ia.deposit(amount);
+                    System.out.println("\n\t\t\t Deposit successful! ");
                     break;
                 }
                 case 3 :{
