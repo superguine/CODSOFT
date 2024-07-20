@@ -135,8 +135,8 @@ public class NumGame
 
                 
                 // Asks for another round
-                System.out.println("\n\n\nWant to play another round ?\tsay 'yes' or 'no'\n-> ");
-                a = scn.nextLine( );
+                System.out.print("\n\n\nWant to play another round ?\tEnter 'yes' or 'no'\n-> ");
+                a = scn.next( );
             }
         }
         scn.close();
@@ -149,7 +149,7 @@ class game
     public int play(int r, Scanner scan,int range,int round)
     {   
         int attempt=0;
-        System.out.print("\n[ Range is ->  0 to "+range+"]"+ r +"\n\nGuess the number: ");// "+ r +"
+        System.out.print("\n[ Range is ->  0 to "+range+"]\n\nGuess the number: ");
         
         while (true) 
         {   
