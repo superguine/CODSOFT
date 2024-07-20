@@ -22,6 +22,7 @@ public class courseReg {
         course[2] = new String[]{"ECE-001","      Analog elec", "     Study about Analog electronics        ", "         Mon 3rd period & Tue 3rd period      "};
         course[3] = new String[]{"ECE-005","      Networking", "      Study about different type of networks ", "        Mon 4th period & thu 1st period      "};
         
+        
         int choice =5;
         while (choice!=4) {
             System.out.print("\n\nEnter 1-> view cources\n      2-> Register\n      3-> View student database\n      4-> Exit\n=> ");
