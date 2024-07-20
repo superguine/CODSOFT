@@ -49,7 +49,10 @@ public class atm {
     }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cadcb24 (TASK added)
 class inner_ATM {
 
     private double balance;
