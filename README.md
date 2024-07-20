@@ -7,9 +7,9 @@
 2. Prompt the user to enter their guess for the generated number.
 3. Compare the user's guess with the generated number and provide feedback on whether the guess is correct, too high, or too low.
    >NOTE** here I have provided corresponding feedbacks on whether the guess is -
-   >- **correct** (_Congrats !! You have guessed the correct number_).
-   >- **too high** ( _You have guessed a higher number_).
-   >- **too low** (_You have guessed a Lower number_).
+   >- **correct** -> _Congrats !! You have guessed the correct number_.
+   >- **too high** -> _You have guessed a higher number_.
+   >- **too low** -> _You have guessed a Lower number_.
 
 4. Repeat steps 2 and 3 until the user guesses the correct number.  return
 
