@@ -7,16 +7,13 @@ public class courseReg {
         innercourse ic = new innercourse();
 
         System.out.println("\n\n\t\tSTUDENT COURSE REGISTRATION SYSTEM");
-        //int courseid=0;
+        
         int coursecapacity []= new int[4];
         int cap = 50;
         for (int i = 0; i < 4; i++) {
            coursecapacity[i] = cap;
         }
-        //coursecapacity[0] = cap;
-        //coursecapacity[1] = 40;
-
-
+       
 
         // maintaining course details
         String[][] course = new String[4][4];
@@ -25,7 +22,6 @@ public class courseReg {
         course[2] = new String[]{"ECE-001","      Analog elec", "     Study about Analog electronics        ", "         Mon 3rd period & Tue 3rd period      "};
         course[3] = new String[]{"ECE-005","      Networking", "      Study about different type of networks ", "        Mon 4th period & thu 1st period      "};
         
-        //ic.getId(crscode);
         int choice =5;
         while (choice!=4) {
             System.out.print("\n\nEnter 1-> view cources\n      2-> Register\n      3-> View student database\n      4-> Exit\n=> ");
@@ -45,7 +41,6 @@ public class courseReg {
                         coursecapacity[ic.getId(crscode)] = --cap;
                         System.out.println("\n\tRegistration Successful!");
                     }
-                    
                     break;
                 case 3:
                     ic.stutDisp();
@@ -69,13 +64,13 @@ class innercourse {
     int cap=50;
     
     String student[][] = new String[20][4];
-    //format student ID, name, and registered courses
+    //format student ID, name, registered courses
 
     public String studreg(){
         System.out.print("Enter name: ");
         String name = sc.nextLine();
         student[stdid][0]= (String.valueOf(stdid+1));
-        System.out.println("Your id is "+student[stdid][0]);
+        System.out.println("Student id is: "+student[stdid][0]);
         student[stdid][1]= name;
         System.out.print("Enter Course Code from above table: ");
         String crscode =sc.nextLine();
@@ -118,22 +113,16 @@ class innercourse {
     public void stutDisp()
     {
         System.out.println("\n\nStudent database:- ");
-        //System.out.print("Enter your Student Id: ");
-        //int stDisp = sc.nextInt()-1;
-        //if (stDisp >= 0 && stDisp < student.length && student[stDisp][0] != null) {
-            System.out.println("============================================================");
-            System.out.println(" Student ID                 Name                     Course");
-            System.out.println("============================================================");
-            for(int j=0;j<(stdid+1);j++)
-            {
-                for (int k = 0; k < 3; k++) {
-                    if (student[j][k]!=null)
-                        System.out.print("   "+student[j][k] + "                   ");
-                }System.out.println();
-            }
+        System.out.println("============================================================");
+        System.out.println(" Student ID                 Name                     Course");
+        System.out.println("============================================================");
+        for(int j=0;j<(stdid+1);j++)
+        {
+            for (int k = 0; k < 3; k++) {
+                if (student[j][k]!=null)
+                    System.out.print("   "+student[j][k] + "                   ");
+            }System.out.println();
+        }
               
-        //} else {
-        //    System.out.println("Invalid Student Id.");
-        //}
     }
 }
