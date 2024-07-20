@@ -63,6 +63,7 @@ class inner_ATM {
         }
     }
     
+    
     public double checkBalance()
     {
         return balance;
