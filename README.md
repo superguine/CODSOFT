@@ -21,7 +21,7 @@
 <pre>
 
 </pre>
-- ****instruction for the user****
+- ****instructions for the user****
    - After **compile** & **run**
       - user have to guess a number between the given range ( will be displayed ) until correct or all attempts taken.
       - then, if the user wants to play another round ( will be asked ), have to enter `yes` otherwise `no`.  
@@ -44,7 +44,7 @@
 
 
 </pre>
-- ****Instruction for the user****
+- ****Instructions for the user****
    - After **compile** & **run**,
       - Users need to enter an integer representing the number of subjects they want to work with.
       - Next, users should enter each subject one by one.
@@ -68,7 +68,7 @@
 7. Display appropriate messages to the user based on their chosen options and the success or failure of their transactions.
 
 
-- ****Instruction for the user****
+- ****Instructions for the user****
    - After **compile** & **run**,
       - select option by entering corresponding integer(option number).
 
@@ -85,6 +85,6 @@
 5. **Course Removal:** Enable students to drop courses they have registered for.
 
 
-- ****Instruction for the user****
+- ****Instructions for the user****
    - After **compile** & **run**,
       - select option by entering corresponding integer(option number).
