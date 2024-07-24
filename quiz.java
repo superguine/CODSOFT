@@ -5,7 +5,7 @@ public class quiz
  {
     public static void main(String[] args) 
     {
-        System.out.println("\n\n\t\t\t Welcome to the Quiz Application\n\n\tNOTE***there will be 20 seconds for each Qs.\n\n\n");
+        System.out.println("\n\n\t\t\t Welcome to the Quiz Application\n\n\tNOTE*** You have 20 seconds for each Qs *****\n\n\n");
         String correct[]=new String[10];
         String incorrect[]=new String[10]; 
         int c=0,in=0;
@@ -45,6 +45,7 @@ public class quiz
         System.out.println("===================================");
         iqz.incorrect(incorrect);
         System.out.println("===================================");
+
     }
 }
 
