@@ -38,9 +38,13 @@ public class quiz
                 break;
             }
         }
+        System.out.println("===================================");
         System.out.println("\n\nYour Score is: "+iqz.score(c));
+        System.out.println("===================================");
         iqz.correct(correct);
+        System.out.println("===================================");
         iqz.incorrect(incorrect);
+        System.out.println("===================================");
     }
 }
 
