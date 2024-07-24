@@ -88,3 +88,25 @@
 - ****Instructions for the user****
    - After **compile** & **run**,
       - select option by entering corresponding integer(option number).
+
+
+
+
+************************************************************************************************************************
+ **[TASK 4-> QUIZ APPLICATION WITH TIMER](https://github.com/superguine/CODSOFT/blob/main/quiz.java)**
+
+1. **Quiz Questions and Options:** Store quiz questions along with multiple-choice options and correct answers.
+2. **Timer:** Implement a timer for each question to limit the time to answer.
+3. **Question Display:** Present one question at a time with multiple-choice options.
+4. **Answer Submission:** Allow users to select an option and submit their answer within the given time.
+5. **Score Calculation:** Keep track of the user's score based on correct answers. 
+6. **Result Screen:** Display the final score and a summary of correct/incorrect answers.
+   
+
+   - ****Instructions for the user****
+   - After **compile** & **run**,
+   - choose correct option by entering a/b/c/d within the time 
+  
+   > NOTE ** 
+      > - time is 20 sec for each Qs
+      > - There are total 10 questions about basic computer
