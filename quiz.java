@@ -33,7 +33,7 @@ public class quiz
                 in++;
             }
             qsno++;
-            if (qsno==3) {
+            if (qsno==10) {
                 sc.close();
                 break;
             }
