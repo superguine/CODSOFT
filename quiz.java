@@ -13,6 +13,7 @@ public class quiz
         Scanner sc = new Scanner(System.in);
         CountdownTimer cnt = new CountdownTimer();
         innerQUIZ iqz = new innerQUIZ();
+        int tqs=10; //----------------------------------- number of total questions
 
         while (true){
             cnt.startTimer(20);
@@ -22,6 +23,12 @@ public class quiz
             System.out.print("Enter the ans: ");
             String str=sc.next();
             char ipans = str.charAt(0);//scans the first character 
+            while (ipans!='a' && ipans!='b' && ipans!='c' && ipans!='d')
+            {
+                System.out.print("Please carefully enter the ans again\n:- ");
+                str=sc.next();
+                ipans = str.charAt(0);
+            }
             cnt.cancelTimer();
             if (iqz.vrf(qsno,  ipans)==true) {
                 int opnum=iqz.optionNumber(ipans);
@@ -33,18 +40,18 @@ public class quiz
                 in++;
             }
             qsno++;
-            if (qsno==10) {
+            if (qsno==tqs) {
                 sc.close();
                 break;
             }
         }
-        System.out.println("===================================");
-        System.out.println("\n\nYour Score is: "+iqz.score(c));
+        System.out.println("-------------------------------------------------------------------------------------");
+        System.out.println("\n\nYour Score is: "+iqz.score(c,tqs));
         System.out.println("===================================");
         iqz.correct(correct);
         System.out.println("===================================");
         iqz.incorrect(incorrect);
-        System.out.println("===================================");
+        System.out.println("\n\n--------- Exiting the Quiz app");
 
     }
 }
@@ -66,7 +73,7 @@ class innerQUIZ{
             "The connection between a computer and other devices is called a:"
 
         };
-        System.out.println(Questions[qsno]);// prints QUESTION5
+        System.out.println("\n\nQs no."+(qsno+1)+"\n"+Questions[qsno]);// prints QUESTION5
     }
 
     public void optns(int qsno)//stores options 
@@ -119,28 +126,15 @@ class innerQUIZ{
         return ipans == ans(qsno);
     }
 
-    public int score(int c) // calculates score
+    public float score(float c,float tqs) // calculates score
     {
-        
-        return switch (c) {
-            case  1 -> 10;
-            case  2 -> 20;
-            case  3 -> 30;
-            case  4 -> 40;
-            case  5 -> 50;
-            case  6 -> 60;
-            case  7 -> 70;
-            case  8 -> 80;
-            case  9 -> 90;
-            case  10 ->100;
-            default-> -1;
-        };
-        
+        float s=(c/tqs)*100;
+        return (s);
     }
 
     public void correct(String correct[]) // prints correct answres 
     {
-        System.out.println(" correct");
+        System.out.println(" correct:-");
         boolean first=true;
         for (int j=0;j<correct.length;j++){
             if (correct[j]!=null) {
@@ -158,7 +152,7 @@ class innerQUIZ{
     {
         
         if (incorrect[0]!=null) {
-            System.out.println(" incorrect");
+            System.out.println(" incorrect:-");
             boolean first = true;
             for (int j = 0; j < incorrect.length; j++) {
                 if (incorrect[j] != null) {
