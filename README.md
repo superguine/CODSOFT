@@ -45,11 +45,12 @@
 
 
 </pre>
-- ****Instructions for the user****
-   - After **compile** & **run**,
-      - Users need to enter an integer representing the number of subjects they want to work with.
-      - Next, users should enter each subject one by one.
-      - Finally, the user should enter marks corresponding to each subject.
+> [!NOTE]
+> - ****Instructions for the user****
+>    - After **compile** & **run**,
+>       - Users need to enter an integer representing the number of subjects they want to work with.
+>       - Next, users should enter each subject one by one.
+>       - Finally, the user should enter marks corresponding to each subject.
 <pre>
 
 
@@ -68,10 +69,10 @@
 6. Validate user input to ensure it is within acceptable limits (e.g., sufficient balance for withdrawals).
 7. Display appropriate messages to the user based on their chosen options and the success or failure of their transactions.
 
-
-- ****Instructions for the user****
-   - After **compile** & **run**,
-      - select option by entering corresponding integer(option number).
+> [!NOTE]
+> - ****Instructions for the user****
+>    - After **compile** & **run**,
+>       - select option by entering corresponding integer(option number).
 
 
 
@@ -85,10 +86,10 @@
 5. **Score Calculation:** Keep track of the user's score based on correct answers. 
 6. **Result Screen:** Display the final score and a summary of correct/incorrect answers.
    
-
-   - ****Instructions for the user****
-   - After **compile** & **run**,
-   - choose correct option by entering a/b/c/d within the time 
+> [!NOTE]
+>    - ****Instructions for the user****
+>    - After **compile** & **run**,
+>    - choose correct option by entering a/b/c/d within the time 
   
    > NOTE ** 
       > - time is 20 sec for each Qs
@@ -104,10 +105,10 @@
 4. **Student Registration:** Allow students to register for courses from the available options.
 5. **Course Removal:** Enable students to drop courses they have registered for.
 
+> [!NOTE]
+> - ****Instructions for the user****
+>    - After **compile** & **run**,
+>       - select option by entering corresponding integer(option number).
 
-- ****Instructions for the user****
-   - After **compile** & **run**,
-      - select option by entering corresponding integer(option number).
 
-
-                                    -------0-------
+.                                                                                            -------0-------
