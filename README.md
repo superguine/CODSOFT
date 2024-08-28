@@ -109,6 +109,10 @@
 > - ****Instructions for the user****
 >    - After **compile** & **run**,
 >       - select option by entering corresponding integer(option number).
+<pre>
 
 
-.��������������������������������������������-------0-------
+   
+</pre>
+
+|_ END
